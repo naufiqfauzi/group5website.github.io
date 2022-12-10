@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+.header {
+
+    background-size: cover;
+    background-position: center;
+    background-clip: padding-box;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    background:rgba(150, 0, 0, 1);
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+.features {
+    margin-top: 4em;
+}
+
+.text-space {
+    margin-top:4em;
+    margin-bottom: 4em;
+}
+
+h1 {
+    color:#fff;
+    font-weight:bolder;
+    text-align:center;
+
+}
+
+h1 span{
+    border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+h3 {
+    color:#fff;
+}
+
+h4 {
+    text-align:center;
+    font-weight:lighter;
+    color:#fff;
+}
+
+.text-spacing {
+    margin-top:0.5em;
+}
+
+.row {
+
+}
+
+.row2 {
+    margin-bottom:4em;
+    margin-right:4%;
+    margin-left:4%;
+
+}
+
+.jarak {
+    margin-top:3em;
+    margin-left: 2em;
+}
+
+img {
+    padding: 2px;
+    border: 2px solid;
+    border-color: #fff;
+}
+
+.airil{
+    background-color:rgba(150, 0, 0, 1);
+    margin-top:4em;
+}
+
+.bg-img {
+    background-image:url(images/pattern4.png);
+    background-position: center;
+    background-clip: padding-box;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.description{
+    border-radius: 25px;
+  background: rgba(150, 0, 0, 1);
+  padding: 20px;
+  width: 8em;
+  height: 8em;
+}
+
+p {
+    color:#fff;
+}
+
+.spacing {
+    position:relative;
+}
